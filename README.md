@@ -1,30 +1,18 @@
 # Shor Sphinx Theme
 
-Sphinx theme for [Shor Docs](https://shor.org/docs/master/torch.html) and [Shor Tutorials](https://shor.org/tutorials) based on the [Read the Docs Sphinx Theme](https://sphinx-rtd-theme.readthedocs.io/en/latest).
+Sphinx theme for [Shor Docs](https://shor.dev/docs/master/torch.html) and [Shor Tutorials](https://shor.dev/tutorials) based on the [Read the Docs Sphinx Theme](https://sphinx-rtd-theme.readthedocs.io/en/latest).
 
 ## Local Development
 
-Run python setup:
-
 ```
-python setup.py install
+poetry install
 ```
 
-and install the dependencies using `pip install -r docs/requirements.txt`
-
-In the root directory install the `package.json`:
-
 ```
-# node version 8.4.0
 yarn install
 
 ```
 
-If you have `npm` installed then run:
-
-```
-npm install
-```
 
 - If you want to see generated documentation for `docs/demo` then create
 `.env.json` file and make it empty json file. Means `.env.json file` will
@@ -35,10 +23,11 @@ contain
 ```
 
 Run grunt to build the html site and enable live reloading of the demo app at `localhost:1919`:
+```
+poetry shell
+yarn run grunt
+```
 
-```
-grunt
-```
 
 - If you want to specify the project folder (docs or tutorial for which
 you want to see docs generated) then you need to specify it into `.env.json`
@@ -46,21 +35,21 @@ file:
 
 ```
 {
-    "DOCS_DIR": "docs/",
-    "TUTORIALS_DIR": "path/to/tutorial/directory"
+    "DOCS_DIR": "../shor/docs/",
+    "TUTORIALS_DIR": "../shor/tutorials"
 }
 ```
 
 Run grunt to build the html site for docs:
 
 ```
-grunt --project=docs
+yarn run grunt --project=docs
 ```
 
 and to build the html site for tutorial:
 
 ```
-grunt --project=tutorials
+yarn run grunt --project=tutorials
 ```
 
 The resulting site is a demo.

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "shor_sphinx_theme"
+version = "0.1.0"
+description = ""
+authors = ["Collin Overbay <cjoverbay@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sphinxcontrib-httpdomain = "^1.7.0"
+Sphinx = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
