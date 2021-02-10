@@ -1,4 +1,4 @@
-.pytorch-container {
+.shor-container {
   margin: 0 auto;
   padding: 0 rem(30px);
   width: auto;
@@ -18,7 +18,7 @@
   @include clearfix;
 }
 
-.pytorch-content-wrap {
+.shor-content-wrap {
   background-color: #ffffff;
   display: flex;
   position: relative;
@@ -37,14 +37,14 @@
   }
 }
 
-.pytorch-content {
+.shor-content {
   background: #ffffff;
   width: 100%;
   max-width: $sphinx_full_width_content_width;
   position: relative;
 }
 
-.pytorch-content-left {
+.shor-content-left {
   min-height: 100vh;
   margin-top: rem(40px);
   width: 100%;
@@ -74,7 +74,7 @@
   }
 }
 
-.pytorch-content-right {
+.shor-content-right {
   display: none;
   position: relative;
   overflow-x: hidden;
@@ -93,7 +93,7 @@
   }
 }
 
-.pytorch-side-scroll {
+.shor-side-scroll {
   @include sphinx-medium-size {
     position: relative;
     overflow-x: hidden;
@@ -102,7 +102,7 @@
   }
 }
 
-.pytorch-menu-vertical {
+.shor-menu-vertical {
   padding: rem(20px) rem(30px) rem(40px) rem(30px);
 
   @include sphinx-medium-size {
@@ -118,7 +118,7 @@
   }
 }
 
-.pytorch-left-menu {
+.shor-left-menu {
   display: none;
   background-color: $light_grey;
   color: $slate;
@@ -163,7 +163,7 @@
   padding-top: 1rem;
 }
 
-.pytorch-left-menu p.caption {
+.shor-left-menu p.caption {
   color: $not_quite_black;
   display: block;
   font-size: rem(16px);
@@ -173,7 +173,7 @@
   white-space: nowrap;
 }
 
-.pytorch-left-menu-search {
+.shor-left-menu-search {
   margin-bottom: rem(40px);
 
   @include sphinx-medium-size {
@@ -181,7 +181,7 @@
   }
 }
 
-.pytorch-left-menu-search {
+.shor-left-menu-search {
   ::-webkit-input-placeholder {
     color: $not_quite_black;
   }
@@ -203,7 +203,7 @@
   }
 }
 
-.pytorch-left-menu-search input[type=text] {
+.shor-left-menu-search input[type=text] {
   border-radius: 0;
   padding: rem(8px) rem(12px);
   border-color: $white;
@@ -224,7 +224,7 @@
   }
 }
 
-.pytorch-left-menu .pytorch-side-scroll {
+.shor-left-menu .shor-side-scroll {
   @include sphinx-medium-size {
     width: $sphinx_left_menu_scroll_wrapper_width;
   }
@@ -234,7 +234,7 @@
   }
 }
 
-.pytorch-right-menu {
+.shor-right-menu {
   min-height: 100px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -276,8 +276,8 @@
   }
 }
 
-.pytorch-left-menu,
-.pytorch-right-menu {
+.shor-left-menu,
+.shor-right-menu {
   ul {
     list-style-type: none;
     padding-left: 0;
@@ -454,11 +454,11 @@
   }
 }
 
-.pytorch-left-menu ul {
+.shor-left-menu ul {
   padding-left: 0;
 }
 
-.pytorch-right-menu {
+.shor-right-menu {
   a:link,
   a:visited,
   a:hover {
@@ -504,7 +504,7 @@
     }
   }
 
-  .pytorch-side-scroll > ul > li > ul > li {
+  .shor-side-scroll > ul > li > ul > li {
     margin-bottom: 0;
   }
 
@@ -534,7 +534,7 @@
   }
 }
 
-.pytorch-right-menu .pytorch-side-scroll {
+.shor-right-menu .shor-side-scroll {
   @include sphinx-medium-size {
     width: $sphinx_right_menu_scroll_wrapper_width;
   }
@@ -611,7 +611,7 @@
   }
 }
 
-.pytorch-page-level-bar {
+.shor-page-level-bar {
   display: none;
   align-items: center;
   background-color: $white;
@@ -656,7 +656,7 @@
   }
 }
 
-.pytorch-shortcuts-wrapper {
+.shor-shortcuts-wrapper {
   display: none;
 
   @include sphinx-medium-size {

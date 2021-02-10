@@ -9616,7 +9616,7 @@ a.with-right-arrow, .btn.with-right-arrow {
   }
 }
 
-.pytorch-article #table-of-contents {
+.shor-article #table-of-contents {
   display: none;
 }
 
@@ -10116,113 +10116,113 @@ pre {
   margin-top: -2px;
 }
 
-article.pytorch-article {
+article.shor-article {
   max-width: 920px;
   margin: 0 auto;
 }
-article.pytorch-article h2,
-article.pytorch-article h3,
-article.pytorch-article h4,
-article.pytorch-article h5,
-article.pytorch-article h6 {
+article.shor-article h2,
+article.shor-article h3,
+article.shor-article h4,
+article.shor-article h5,
+article.shor-article h6 {
   margin: 1.375rem 0;
   color: #262626;
 }
-article.pytorch-article h2 {
+article.shor-article h2 {
   font-size: 1.625rem;
   letter-spacing: 1.33px;
   line-height: 2rem;
   text-transform: none;
 }
-article.pytorch-article h3 {
+article.shor-article h3 {
   font-size: 1.5rem;
   letter-spacing: -0.25px;
   line-height: 1.875rem;
   text-transform: none;
 }
-article.pytorch-article h4,
-article.pytorch-article h5,
-article.pytorch-article h6 {
+article.shor-article h4,
+article.shor-article h5,
+article.shor-article h6 {
   font-size: 1.125rem;
   letter-spacing: -0.19px;
   line-height: 1.875rem;
 }
-article.pytorch-article p {
+article.shor-article p {
   margin-bottom: 1.125rem;
 }
-article.pytorch-article p,
-article.pytorch-article ul li,
-article.pytorch-article ol li,
-article.pytorch-article dl dt,
-article.pytorch-article dl dd,
-article.pytorch-article blockquote {
+article.shor-article p,
+article.shor-article ul li,
+article.shor-article ol li,
+article.shor-article dl dt,
+article.shor-article dl dd,
+article.shor-article blockquote {
   font-size: 1rem;
   line-height: 1.375rem;
   color: #262626;
   letter-spacing: 0.01px;
   font-weight: 500;
 }
-article.pytorch-article table {
+article.shor-article table {
   margin-bottom: 2.5rem;
   width: 100%;
 }
-article.pytorch-article table thead {
+article.shor-article table thead {
   border-bottom: 1px solid #cacaca;
 }
-article.pytorch-article table th {
+article.shor-article table th {
   padding: 0.625rem;
   color: #262626;
 }
-article.pytorch-article table td {
+article.shor-article table td {
   padding: 0.3125rem;
 }
-article.pytorch-article table tr th:first-of-type,
-article.pytorch-article table tr td:first-of-type {
+article.shor-article table tr th:first-of-type,
+article.shor-article table tr td:first-of-type {
   padding-left: 0;
 }
-article.pytorch-article table.docutils.field-list th.field-name {
+article.shor-article table.docutils.field-list th.field-name {
   padding: 0.3125rem;
   padding-left: 0;
 }
-article.pytorch-article table.docutils.field-list td.field-body {
+article.shor-article table.docutils.field-list td.field-body {
   padding: 0.3125rem;
 }
-article.pytorch-article table.docutils.field-list td.field-body p:last-of-type {
+article.shor-article table.docutils.field-list td.field-body p:last-of-type {
   margin-bottom: 0;
 }
-article.pytorch-article ul,
-article.pytorch-article ol {
+article.shor-article ul,
+article.shor-article ol {
   margin: 1.5rem 0 3.125rem 0;
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article ul,
-  article.pytorch-article ol {
+  article.shor-article ul,
+  article.shor-article ol {
     padding-left: 6.25rem;
   }
 }
-article.pytorch-article ul li,
-article.pytorch-article ol li {
+article.shor-article ul li,
+article.shor-article ol li {
   margin-bottom: 0.625rem;
 }
-article.pytorch-article dl {
+article.shor-article dl {
   margin-bottom: 1.5rem;
 }
-article.pytorch-article dl dt {
+article.shor-article dl dt {
   margin-bottom: 0.75rem;
 }
-article.pytorch-article pre {
+article.shor-article pre {
   margin-bottom: 2.5rem;
 }
-article.pytorch-article hr {
+article.shor-article hr {
   margin-top: 4.6875rem;
   margin-bottom: 4.6875rem;
 }
-article.pytorch-article blockquote {
+article.shor-article blockquote {
   margin: 0 auto;
   margin-bottom: 2.5rem;
   width: 65%;
 }
-article.pytorch-article img {
+article.shor-article img {
   width: 100%;
 }
 
@@ -10270,15 +10270,15 @@ p a:hover {
   color: #ee4c2c;
 }
 
-ul.pytorch-breadcrumbs {
+ul.shor-breadcrumbs {
   padding-left: 0;
   list-style-type: none;
 }
-ul.pytorch-breadcrumbs li {
+ul.shor-breadcrumbs li {
   display: inline-block;
   font-size: 0.875rem;
 }
-ul.pytorch-breadcrumbs a {
+ul.shor-breadcrumbs a {
   color: #ee4c2c;
   text-decoration: none;
 }
@@ -10395,52 +10395,52 @@ a:visited.has-code span {
   color: #4974D1;
 }
 
-article.pytorch-article ul,
-article.pytorch-article ol {
+article.shor-article ul,
+article.shor-article ol {
   padding-left: 1.875rem;
   margin: 0;
 }
-article.pytorch-article ul li,
-article.pytorch-article ol li {
+article.shor-article ul li,
+article.shor-article ol li {
   margin: 0;
   line-height: 1.75rem;
 }
-article.pytorch-article ul p,
-article.pytorch-article ol p {
+article.shor-article ul p,
+article.shor-article ol p {
   line-height: 1.75rem;
   margin-bottom: 0;
 }
-article.pytorch-article ul ul,
-article.pytorch-article ul ol,
-article.pytorch-article ol ul,
-article.pytorch-article ol ol {
+article.shor-article ul ul,
+article.shor-article ul ol,
+article.shor-article ol ul,
+article.shor-article ol ol {
   margin: 0;
 }
-article.pytorch-article h1,
-article.pytorch-article h2,
-article.pytorch-article h3,
-article.pytorch-article h4,
-article.pytorch-article h5,
-article.pytorch-article h6 {
+article.shor-article h1,
+article.shor-article h2,
+article.shor-article h3,
+article.shor-article h4,
+article.shor-article h5,
+article.shor-article h6 {
   font-weight: normal;
 }
-article.pytorch-article h1 a,
-article.pytorch-article h2 a,
-article.pytorch-article h3 a,
-article.pytorch-article h4 a,
-article.pytorch-article h5 a,
-article.pytorch-article h6 a {
+article.shor-article h1 a,
+article.shor-article h2 a,
+article.shor-article h3 a,
+article.shor-article h4 a,
+article.shor-article h5 a,
+article.shor-article h6 a {
   color: #262626;
 }
-article.pytorch-article p.caption {
+article.shor-article p.caption {
   margin-top: 1.25rem;
 }
 
-article.pytorch-article .section:first-of-type h1:first-of-type {
+article.shor-article .section:first-of-type h1:first-of-type {
   margin-top: 0;
 }
 
-article.pytorch-article .sphx-glr-thumbcontainer {
+article.shor-article .sphx-glr-thumbcontainer {
   margin: 0;
   border: 1px solid #d6d7d8;
   border-radius: 0;
@@ -10449,44 +10449,44 @@ article.pytorch-article .sphx-glr-thumbcontainer {
   margin-bottom: 5%;
 }
 @media screen and (max-width: 1100px) {
-  article.pytorch-article .sphx-glr-thumbcontainer:nth-child(odd) {
+  article.shor-article .sphx-glr-thumbcontainer:nth-child(odd) {
     margin-left: 0;
     margin-right: 2.5%;
   }
-  article.pytorch-article .sphx-glr-thumbcontainer:nth-child(even) {
+  article.shor-article .sphx-glr-thumbcontainer:nth-child(even) {
     margin-right: 0;
     margin-left: 2.5%;
   }
-  article.pytorch-article .sphx-glr-thumbcontainer .figure {
+  article.shor-article .sphx-glr-thumbcontainer .figure {
     width: 40%;
   }
 }
 @media screen and (min-width: 1101px) {
-  article.pytorch-article .sphx-glr-thumbcontainer {
+  article.shor-article .sphx-glr-thumbcontainer {
     margin-right: 3%;
     margin-bottom: 3%;
     width: 30%;
   }
 }
-article.pytorch-article .sphx-glr-thumbcontainer .caption-text a {
+article.shor-article .sphx-glr-thumbcontainer .caption-text a {
   font-size: 1rem;
   color: #262626;
   letter-spacing: 0;
   line-height: 1.5rem;
   text-decoration: none;
 }
-article.pytorch-article .sphx-glr-thumbcontainer:hover {
+article.shor-article .sphx-glr-thumbcontainer:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-bottom-color: #ffffff;
 }
-article.pytorch-article .sphx-glr-thumbcontainer:hover .figure:before {
+article.shor-article .sphx-glr-thumbcontainer:hover .figure:before {
   bottom: 100%;
 }
-article.pytorch-article .sphx-glr-thumbcontainer .figure {
+article.shor-article .sphx-glr-thumbcontainer .figure {
   width: 80%;
 }
-article.pytorch-article .sphx-glr-thumbcontainer .figure:before {
+article.shor-article .sphx-glr-thumbcontainer .figure:before {
   content: "";
   display: block;
   position: absolute;
@@ -10497,11 +10497,11 @@ article.pytorch-article .sphx-glr-thumbcontainer .figure:before {
   background: #8A94B3;
   opacity: 0.10;
 }
-article.pytorch-article .sphx-glr-thumbcontainer .figure a.reference.internal {
+article.shor-article .sphx-glr-thumbcontainer .figure a.reference.internal {
   text-align: left;
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article .sphx-glr-thumbcontainer:after {
+  article.shor-article .sphx-glr-thumbcontainer:after {
     content: "";
     display: block;
     width: 0;
@@ -10513,17 +10513,17 @@ article.pytorch-article .sphx-glr-thumbcontainer .figure a.reference.internal {
     -webkit-transition: width .250s ease-in-out;
     transition: width .250s ease-in-out;
   }
-  article.pytorch-article .sphx-glr-thumbcontainer:hover:after {
+  article.shor-article .sphx-glr-thumbcontainer:hover:after {
     width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article .sphx-glr-thumbcontainer:after {
+  article.shor-article .sphx-glr-thumbcontainer:after {
     background-color: #ee4c2c;
   }
 }
 
-article.pytorch-article .section :not(dt) > code {
+article.shor-article .section :not(dt) > code {
   color: #262626;
   border-top: solid 2px #ffffff;
   background-color: #ffffff;
@@ -10532,11 +10532,11 @@ article.pytorch-article .section :not(dt) > code {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-article.pytorch-article .section :not(dt) > code .pre {
+article.shor-article .section :not(dt) > code .pre {
   outline: 0px;
   padding: 0px;
 }
-article.pytorch-article .function dt, article.pytorch-article .attribute dt, article.pytorch-article .class .attribute dt, article.pytorch-article .class dt {
+article.shor-article .function dt, article.shor-article .attribute dt, article.shor-article .class .attribute dt, article.shor-article .class dt {
   position: relative;
   background: #f3f4f7;
   padding: 0.5rem;
@@ -10544,14 +10544,14 @@ article.pytorch-article .function dt, article.pytorch-article .attribute dt, art
   word-wrap: break-word;
   padding-right: 100px;
 }
-article.pytorch-article .function dt em.property, article.pytorch-article .attribute dt em.property, article.pytorch-article .class dt em.property {
+article.shor-article .function dt em.property, article.shor-article .attribute dt em.property, article.shor-article .class dt em.property {
   font-family: inherit;
 }
-article.pytorch-article .function dt em, article.pytorch-article .attribute dt em, article.pytorch-article .class .attribute dt em, article.pytorch-article .class dt em, article.pytorch-article .function dt .sig-paren, article.pytorch-article .attribute dt .sig-paren, article.pytorch-article .class dt .sig-paren {
+article.shor-article .function dt em, article.shor-article .attribute dt em, article.shor-article .class .attribute dt em, article.shor-article .class dt em, article.shor-article .function dt .sig-paren, article.shor-article .attribute dt .sig-paren, article.shor-article .class dt .sig-paren {
   font-family: IBMPlexMono,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   font-size: 87.5%;
 }
-article.pytorch-article .function dt a, article.pytorch-article .attribute dt a, article.pytorch-article .class .attribute dt a, article.pytorch-article .class dt a {
+article.shor-article .function dt a, article.shor-article .attribute dt a, article.shor-article .class .attribute dt a, article.shor-article .class dt a {
   position: absolute;
   right: 30px;
   padding-right: 0;
@@ -10559,17 +10559,17 @@ article.pytorch-article .function dt a, article.pytorch-article .attribute dt a,
   -webkit-transform: perspective(1px) translateY(-50%);
           transform: perspective(1px) translateY(-50%);
 }
-article.pytorch-article .function dt:hover .viewcode-link, article.pytorch-article .attribute dt:hover .viewcode-link, article.pytorch-article .class dt:hover .viewcode-link {
+article.shor-article .function dt:hover .viewcode-link, article.shor-article .attribute dt:hover .viewcode-link, article.shor-article .class dt:hover .viewcode-link {
   color: #ee4c2c;
 }
-article.pytorch-article .function .anchorjs-link, article.pytorch-article .attribute .anchorjs-link, article.pytorch-article .class .anchorjs-link {
+article.shor-article .function .anchorjs-link, article.shor-article .attribute .anchorjs-link, article.shor-article .class .anchorjs-link {
   display: inline;
   position: absolute;
   right: 8px;
   font-size: 1.5625rem !important;
   padding-left: 0;
 }
-article.pytorch-article .function dt > code, article.pytorch-article .attribute dt > code, article.pytorch-article .class .attribute dt > code, article.pytorch-article .class dt > code {
+article.shor-article .function dt > code, article.shor-article .attribute dt > code, article.shor-article .class .attribute dt > code, article.shor-article .class dt > code {
   color: #262626;
   border-top: solid 2px #f3f4f7;
   background-color: #f3f4f7;
@@ -10577,73 +10577,73 @@ article.pytorch-article .function dt > code, article.pytorch-article .attribute 
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-article.pytorch-article .function .viewcode-link, article.pytorch-article .attribute .viewcode-link, article.pytorch-article .class .viewcode-link {
+article.shor-article .function .viewcode-link, article.shor-article .attribute .viewcode-link, article.shor-article .class .viewcode-link {
   font-size: 0.875rem;
   color: #979797;
   letter-spacing: 0;
   line-height: 1.5rem;
   text-transform: uppercase;
 }
-article.pytorch-article .function dd, article.pytorch-article .attribute dd, article.pytorch-article .class .attribute dd, article.pytorch-article .class dd {
+article.shor-article .function dd, article.shor-article .attribute dd, article.shor-article .class .attribute dd, article.shor-article .class dd {
   padding-left: 3.75rem;
 }
-article.pytorch-article .function dd p, article.pytorch-article .attribute dd p, article.pytorch-article .class .attribute dd p, article.pytorch-article .class dd p {
+article.shor-article .function dd p, article.shor-article .attribute dd p, article.shor-article .class .attribute dd p, article.shor-article .class dd p {
   color: #262626;
 }
-article.pytorch-article .function table tbody tr th.field-name, article.pytorch-article .attribute table tbody tr th.field-name, article.pytorch-article .class table tbody tr th.field-name {
+article.shor-article .function table tbody tr th.field-name, article.shor-article .attribute table tbody tr th.field-name, article.shor-article .class table tbody tr th.field-name {
   white-space: nowrap;
   color: #262626;
   width: 20%;
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article .function table tbody tr th.field-name, article.pytorch-article .attribute table tbody tr th.field-name, article.pytorch-article .class table tbody tr th.field-name {
+  article.shor-article .function table tbody tr th.field-name, article.shor-article .attribute table tbody tr th.field-name, article.shor-article .class table tbody tr th.field-name {
     width: 15%;
   }
 }
-article.pytorch-article .function table tbody tr td.field-body, article.pytorch-article .attribute table tbody tr td.field-body, article.pytorch-article .class table tbody tr td.field-body {
+article.shor-article .function table tbody tr td.field-body, article.shor-article .attribute table tbody tr td.field-body, article.shor-article .class table tbody tr td.field-body {
   padding: 0.625rem;
   width: 80%;
   color: #262626;
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article .function table tbody tr td.field-body, article.pytorch-article .attribute table tbody tr td.field-body, article.pytorch-article .class table tbody tr td.field-body {
+  article.shor-article .function table tbody tr td.field-body, article.shor-article .attribute table tbody tr td.field-body, article.shor-article .class table tbody tr td.field-body {
     width: 85%;
   }
 }
 @media screen and (min-width: 1600px) {
-  article.pytorch-article .function table tbody tr td.field-body, article.pytorch-article .attribute table tbody tr td.field-body, article.pytorch-article .class table tbody tr td.field-body {
+  article.shor-article .function table tbody tr td.field-body, article.shor-article .attribute table tbody tr td.field-body, article.shor-article .class table tbody tr td.field-body {
     padding-left: 1.25rem;
   }
 }
-article.pytorch-article .function table tbody tr td.field-body p, article.pytorch-article .attribute table tbody tr td.field-body p, article.pytorch-article .class table tbody tr td.field-body p {
+article.shor-article .function table tbody tr td.field-body p, article.shor-article .attribute table tbody tr td.field-body p, article.shor-article .class table tbody tr td.field-body p {
   padding-left: 0px;
 }
-article.pytorch-article .function table tbody tr td.field-body p:last-of-type, article.pytorch-article .attribute table tbody tr td.field-body p:last-of-type, article.pytorch-article .class table tbody tr td.field-body p:last-of-type {
+article.shor-article .function table tbody tr td.field-body p:last-of-type, article.shor-article .attribute table tbody tr td.field-body p:last-of-type, article.shor-article .class table tbody tr td.field-body p:last-of-type {
   margin-bottom: 0;
 }
-article.pytorch-article .function table tbody tr td.field-body ol, article.pytorch-article .attribute table tbody tr td.field-body ol, article.pytorch-article .class table tbody tr td.field-body ol, article.pytorch-article .function table tbody tr td.field-body ul, article.pytorch-article .attribute table tbody tr td.field-body ul, article.pytorch-article .class table tbody tr td.field-body ul {
+article.shor-article .function table tbody tr td.field-body ol, article.shor-article .attribute table tbody tr td.field-body ol, article.shor-article .class table tbody tr td.field-body ol, article.shor-article .function table tbody tr td.field-body ul, article.shor-article .attribute table tbody tr td.field-body ul, article.shor-article .class table tbody tr td.field-body ul {
   padding-left: 1rem;
   padding-bottom: 0;
 }
-article.pytorch-article .function table.docutils.field-list, article.pytorch-article .attribute table.docutils.field-list, article.pytorch-article .class table.docutils.field-list {
+article.shor-article .function table.docutils.field-list, article.shor-article .attribute table.docutils.field-list, article.shor-article .class table.docutils.field-list {
   margin-bottom: 0.75rem;
 }
-article.pytorch-article .attribute .has-code {
+article.shor-article .attribute .has-code {
   float: none;
 }
-article.pytorch-article .class dt {
+article.shor-article .class dt {
   border-left: none;
   border-top: 3px solid #ee4c2c;
   padding-left: 4em;
 }
-article.pytorch-article .class dt em.property {
+article.shor-article .class dt em.property {
   position: absolute;
   left: 0.5rem;
 }
-article.pytorch-article .class dd .docutils dt {
+article.shor-article .class dd .docutils dt {
   padding-left: 0.5rem;
 }
-article.pytorch-article .class em.property {
+article.shor-article .class em.property {
   text-transform: uppercase;
   font-style: normal;
   color: #ee4c2c;
@@ -10651,55 +10651,55 @@ article.pytorch-article .class em.property {
   letter-spacing: 0;
   padding-right: 0.75rem;
 }
-article.pytorch-article .class dl dt em.property {
+article.shor-article .class dl dt em.property {
   position: static;
   left: 0;
   padding-right: 0;
 }
-article.pytorch-article .class .method dt,
-article.pytorch-article .class .staticmethod dt {
+article.shor-article .class .method dt,
+article.shor-article .class .staticmethod dt {
   border-left: 3px solid #ee4c2c;
   border-top: none;
 }
-article.pytorch-article .class .method dt,
-article.pytorch-article .class .staticmethod dt {
+article.shor-article .class .method dt,
+article.shor-article .class .staticmethod dt {
   padding-left: 0.5rem;
 }
-article.pytorch-article .class .attribute dt {
+article.shor-article .class .attribute dt {
   border-top: none;
 }
-article.pytorch-article .class .attribute dt em.property {
+article.shor-article .class .attribute dt em.property {
   position: relative;
   left: 0;
 }
-article.pytorch-article table {
+article.shor-article table {
   table-layout: fixed;
 }
 
-article.pytorch-article .note,
-article.pytorch-article .warning,
-article.pytorch-article .tip,
-article.pytorch-article .seealso,
-article.pytorch-article .hint,
-article.pytorch-article .important,
-article.pytorch-article .caution,
-article.pytorch-article .danger,
-article.pytorch-article .attention,
-article.pytorch-article .error {
+article.shor-article .note,
+article.shor-article .warning,
+article.shor-article .tip,
+article.shor-article .seealso,
+article.shor-article .hint,
+article.shor-article .important,
+article.shor-article .caution,
+article.shor-article .danger,
+article.shor-article .attention,
+article.shor-article .error {
   background: #f3f4f7;
   margin-top: 1.875rem;
   margin-bottom: 1.125rem;
 }
-article.pytorch-article .note .admonition-title,
-article.pytorch-article .warning .admonition-title,
-article.pytorch-article .tip .admonition-title,
-article.pytorch-article .seealso .admonition-title,
-article.pytorch-article .hint .admonition-title,
-article.pytorch-article .important .admonition-title,
-article.pytorch-article .caution .admonition-title,
-article.pytorch-article .danger .admonition-title,
-article.pytorch-article .attention .admonition-title,
-article.pytorch-article .error .admonition-title {
+article.shor-article .note .admonition-title,
+article.shor-article .warning .admonition-title,
+article.shor-article .tip .admonition-title,
+article.shor-article .seealso .admonition-title,
+article.shor-article .hint .admonition-title,
+article.shor-article .important .admonition-title,
+article.shor-article .caution .admonition-title,
+article.shor-article .danger .admonition-title,
+article.shor-article .attention .admonition-title,
+article.shor-article .error .admonition-title {
   color: #ffffff;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -10708,80 +10708,80 @@ article.pytorch-article .error .admonition-title {
   position: relative;
   font-size: 0.875rem;
 }
-article.pytorch-article .note .admonition-title:before,
-article.pytorch-article .warning .admonition-title:before,
-article.pytorch-article .tip .admonition-title:before,
-article.pytorch-article .seealso .admonition-title:before,
-article.pytorch-article .hint .admonition-title:before,
-article.pytorch-article .important .admonition-title:before,
-article.pytorch-article .caution .admonition-title:before,
-article.pytorch-article .danger .admonition-title:before,
-article.pytorch-article .attention .admonition-title:before,
-article.pytorch-article .error .admonition-title:before {
+article.shor-article .note .admonition-title:before,
+article.shor-article .warning .admonition-title:before,
+article.shor-article .tip .admonition-title:before,
+article.shor-article .seealso .admonition-title:before,
+article.shor-article .hint .admonition-title:before,
+article.shor-article .important .admonition-title:before,
+article.shor-article .caution .admonition-title:before,
+article.shor-article .danger .admonition-title:before,
+article.shor-article .attention .admonition-title:before,
+article.shor-article .error .admonition-title:before {
   content: "\2022";
   position: absolute;
   left: 9px;
   color: #ffffff;
   top: 2px;
 }
-article.pytorch-article .note p:nth-child(n + 2),
-article.pytorch-article .warning p:nth-child(n + 2),
-article.pytorch-article .tip p:nth-child(n + 2),
-article.pytorch-article .seealso p:nth-child(n + 2),
-article.pytorch-article .hint p:nth-child(n + 2),
-article.pytorch-article .important p:nth-child(n + 2),
-article.pytorch-article .caution p:nth-child(n + 2),
-article.pytorch-article .danger p:nth-child(n + 2),
-article.pytorch-article .attention p:nth-child(n + 2),
-article.pytorch-article .error p:nth-child(n + 2) {
+article.shor-article .note p:nth-child(n + 2),
+article.shor-article .warning p:nth-child(n + 2),
+article.shor-article .tip p:nth-child(n + 2),
+article.shor-article .seealso p:nth-child(n + 2),
+article.shor-article .hint p:nth-child(n + 2),
+article.shor-article .important p:nth-child(n + 2),
+article.shor-article .caution p:nth-child(n + 2),
+article.shor-article .danger p:nth-child(n + 2),
+article.shor-article .attention p:nth-child(n + 2),
+article.shor-article .error p:nth-child(n + 2) {
   padding: 0 1.375rem;
 }
-article.pytorch-article .note table,
-article.pytorch-article .warning table,
-article.pytorch-article .tip table,
-article.pytorch-article .seealso table,
-article.pytorch-article .hint table,
-article.pytorch-article .important table,
-article.pytorch-article .caution table,
-article.pytorch-article .danger table,
-article.pytorch-article .attention table,
-article.pytorch-article .error table {
+article.shor-article .note table,
+article.shor-article .warning table,
+article.shor-article .tip table,
+article.shor-article .seealso table,
+article.shor-article .hint table,
+article.shor-article .important table,
+article.shor-article .caution table,
+article.shor-article .danger table,
+article.shor-article .attention table,
+article.shor-article .error table {
   margin: 0 2rem;
   width: auto;
 }
-article.pytorch-article .note .pre,
-article.pytorch-article .note pre,
-article.pytorch-article .warning .pre,
-article.pytorch-article .warning pre,
-article.pytorch-article .tip .pre,
-article.pytorch-article .tip pre,
-article.pytorch-article .seealso .pre,
-article.pytorch-article .seealso pre,
-article.pytorch-article .hint .pre,
-article.pytorch-article .hint pre,
-article.pytorch-article .important .pre,
-article.pytorch-article .important pre,
-article.pytorch-article .caution .pre,
-article.pytorch-article .caution pre,
-article.pytorch-article .danger .pre,
-article.pytorch-article .danger pre,
-article.pytorch-article .attention .pre,
-article.pytorch-article .attention pre,
-article.pytorch-article .error .pre,
-article.pytorch-article .error pre {
+article.shor-article .note .pre,
+article.shor-article .note pre,
+article.shor-article .warning .pre,
+article.shor-article .warning pre,
+article.shor-article .tip .pre,
+article.shor-article .tip pre,
+article.shor-article .seealso .pre,
+article.shor-article .seealso pre,
+article.shor-article .hint .pre,
+article.shor-article .hint pre,
+article.shor-article .important .pre,
+article.shor-article .important pre,
+article.shor-article .caution .pre,
+article.shor-article .caution pre,
+article.shor-article .danger .pre,
+article.shor-article .danger pre,
+article.shor-article .attention .pre,
+article.shor-article .attention pre,
+article.shor-article .error .pre,
+article.shor-article .error pre {
   background: #ffffff;
   outline: 1px solid #e9e9e9;
 }
-article.pytorch-article .note :not(dt) > code,
-article.pytorch-article .warning :not(dt) > code,
-article.pytorch-article .tip :not(dt) > code,
-article.pytorch-article .seealso :not(dt) > code,
-article.pytorch-article .hint :not(dt) > code,
-article.pytorch-article .important :not(dt) > code,
-article.pytorch-article .caution :not(dt) > code,
-article.pytorch-article .danger :not(dt) > code,
-article.pytorch-article .attention :not(dt) > code,
-article.pytorch-article .error :not(dt) > code {
+article.shor-article .note :not(dt) > code,
+article.shor-article .warning :not(dt) > code,
+article.shor-article .tip :not(dt) > code,
+article.shor-article .seealso :not(dt) > code,
+article.shor-article .hint :not(dt) > code,
+article.shor-article .important :not(dt) > code,
+article.shor-article .caution :not(dt) > code,
+article.shor-article .danger :not(dt) > code,
+article.shor-article .attention :not(dt) > code,
+article.shor-article .error :not(dt) > code {
   border-top: solid 2px #ffffff;
   background-color: #ffffff;
   border-bottom: solid 2px #ffffff;
@@ -10790,139 +10790,139 @@ article.pytorch-article .error :not(dt) > code {
   box-decoration-break: clone;
   outline: 1px solid #e9e9e9;
 }
-article.pytorch-article .note :not(dt) > code .pre,
-article.pytorch-article .warning :not(dt) > code .pre,
-article.pytorch-article .tip :not(dt) > code .pre,
-article.pytorch-article .seealso :not(dt) > code .pre,
-article.pytorch-article .hint :not(dt) > code .pre,
-article.pytorch-article .important :not(dt) > code .pre,
-article.pytorch-article .caution :not(dt) > code .pre,
-article.pytorch-article .danger :not(dt) > code .pre,
-article.pytorch-article .attention :not(dt) > code .pre,
-article.pytorch-article .error :not(dt) > code .pre {
+article.shor-article .note :not(dt) > code .pre,
+article.shor-article .warning :not(dt) > code .pre,
+article.shor-article .tip :not(dt) > code .pre,
+article.shor-article .seealso :not(dt) > code .pre,
+article.shor-article .hint :not(dt) > code .pre,
+article.shor-article .important :not(dt) > code .pre,
+article.shor-article .caution :not(dt) > code .pre,
+article.shor-article .danger :not(dt) > code .pre,
+article.shor-article .attention :not(dt) > code .pre,
+article.shor-article .error :not(dt) > code .pre {
   outline: 0px;
   padding: 0px;
 }
-article.pytorch-article .note pre,
-article.pytorch-article .warning pre,
-article.pytorch-article .tip pre,
-article.pytorch-article .seealso pre,
-article.pytorch-article .hint pre,
-article.pytorch-article .important pre,
-article.pytorch-article .caution pre,
-article.pytorch-article .danger pre,
-article.pytorch-article .attention pre,
-article.pytorch-article .error pre {
+article.shor-article .note pre,
+article.shor-article .warning pre,
+article.shor-article .tip pre,
+article.shor-article .seealso pre,
+article.shor-article .hint pre,
+article.shor-article .important pre,
+article.shor-article .caution pre,
+article.shor-article .danger pre,
+article.shor-article .attention pre,
+article.shor-article .error pre {
   margin-bottom: 0;
 }
-article.pytorch-article .note .highlight,
-article.pytorch-article .warning .highlight,
-article.pytorch-article .tip .highlight,
-article.pytorch-article .seealso .highlight,
-article.pytorch-article .hint .highlight,
-article.pytorch-article .important .highlight,
-article.pytorch-article .caution .highlight,
-article.pytorch-article .danger .highlight,
-article.pytorch-article .attention .highlight,
-article.pytorch-article .error .highlight {
+article.shor-article .note .highlight,
+article.shor-article .warning .highlight,
+article.shor-article .tip .highlight,
+article.shor-article .seealso .highlight,
+article.shor-article .hint .highlight,
+article.shor-article .important .highlight,
+article.shor-article .caution .highlight,
+article.shor-article .danger .highlight,
+article.shor-article .attention .highlight,
+article.shor-article .error .highlight {
   margin: 0 2rem 1.125rem 2rem;
 }
-article.pytorch-article .note ul,
-article.pytorch-article .note ol,
-article.pytorch-article .warning ul,
-article.pytorch-article .warning ol,
-article.pytorch-article .tip ul,
-article.pytorch-article .tip ol,
-article.pytorch-article .seealso ul,
-article.pytorch-article .seealso ol,
-article.pytorch-article .hint ul,
-article.pytorch-article .hint ol,
-article.pytorch-article .important ul,
-article.pytorch-article .important ol,
-article.pytorch-article .caution ul,
-article.pytorch-article .caution ol,
-article.pytorch-article .danger ul,
-article.pytorch-article .danger ol,
-article.pytorch-article .attention ul,
-article.pytorch-article .attention ol,
-article.pytorch-article .error ul,
-article.pytorch-article .error ol {
+article.shor-article .note ul,
+article.shor-article .note ol,
+article.shor-article .warning ul,
+article.shor-article .warning ol,
+article.shor-article .tip ul,
+article.shor-article .tip ol,
+article.shor-article .seealso ul,
+article.shor-article .seealso ol,
+article.shor-article .hint ul,
+article.shor-article .hint ol,
+article.shor-article .important ul,
+article.shor-article .important ol,
+article.shor-article .caution ul,
+article.shor-article .caution ol,
+article.shor-article .danger ul,
+article.shor-article .danger ol,
+article.shor-article .attention ul,
+article.shor-article .attention ol,
+article.shor-article .error ul,
+article.shor-article .error ol {
   padding-left: 3.25rem;
 }
-article.pytorch-article .note ul li,
-article.pytorch-article .note ol li,
-article.pytorch-article .warning ul li,
-article.pytorch-article .warning ol li,
-article.pytorch-article .tip ul li,
-article.pytorch-article .tip ol li,
-article.pytorch-article .seealso ul li,
-article.pytorch-article .seealso ol li,
-article.pytorch-article .hint ul li,
-article.pytorch-article .hint ol li,
-article.pytorch-article .important ul li,
-article.pytorch-article .important ol li,
-article.pytorch-article .caution ul li,
-article.pytorch-article .caution ol li,
-article.pytorch-article .danger ul li,
-article.pytorch-article .danger ol li,
-article.pytorch-article .attention ul li,
-article.pytorch-article .attention ol li,
-article.pytorch-article .error ul li,
-article.pytorch-article .error ol li {
+article.shor-article .note ul li,
+article.shor-article .note ol li,
+article.shor-article .warning ul li,
+article.shor-article .warning ol li,
+article.shor-article .tip ul li,
+article.shor-article .tip ol li,
+article.shor-article .seealso ul li,
+article.shor-article .seealso ol li,
+article.shor-article .hint ul li,
+article.shor-article .hint ol li,
+article.shor-article .important ul li,
+article.shor-article .important ol li,
+article.shor-article .caution ul li,
+article.shor-article .caution ol li,
+article.shor-article .danger ul li,
+article.shor-article .danger ol li,
+article.shor-article .attention ul li,
+article.shor-article .attention ol li,
+article.shor-article .error ul li,
+article.shor-article .error ol li {
   color: #262626;
 }
-article.pytorch-article .note p,
-article.pytorch-article .warning p,
-article.pytorch-article .tip p,
-article.pytorch-article .seealso p,
-article.pytorch-article .hint p,
-article.pytorch-article .important p,
-article.pytorch-article .caution p,
-article.pytorch-article .danger p,
-article.pytorch-article .attention p,
-article.pytorch-article .error p {
+article.shor-article .note p,
+article.shor-article .warning p,
+article.shor-article .tip p,
+article.shor-article .seealso p,
+article.shor-article .hint p,
+article.shor-article .important p,
+article.shor-article .caution p,
+article.shor-article .danger p,
+article.shor-article .attention p,
+article.shor-article .error p {
   margin-top: 1.125rem;
 }
-article.pytorch-article .note .admonition-title {
+article.shor-article .note .admonition-title {
   background: #54c7ec;
 }
-article.pytorch-article .warning .admonition-title {
+article.shor-article .warning .admonition-title {
   background: #e94f3b;
 }
-article.pytorch-article .tip .admonition-title {
+article.shor-article .tip .admonition-title {
   background: #6bcebb;
 }
-article.pytorch-article .seealso .admonition-title {
+article.shor-article .seealso .admonition-title {
     background: #6bcebb;
 }
-article.pytorch-article .hint .admonition-title {
+article.shor-article .hint .admonition-title {
   background: #a2cdde;
 }
-article.pytorch-article .important .admonition-title {
+article.shor-article .important .admonition-title {
   background: #5890ff;
 }
-article.pytorch-article .caution .admonition-title {
+article.shor-article .caution .admonition-title {
   background: #f7923a;
 }
-article.pytorch-article .danger .admonition-title {
+article.shor-article .danger .admonition-title {
   background: #db2c49;
 }
-article.pytorch-article .attention .admonition-title {
+article.shor-article .attention .admonition-title {
   background: #f5a623;
 }
-article.pytorch-article .error .admonition-title {
+article.shor-article .error .admonition-title {
   background: #cc2f90;
 }
-article.pytorch-article .sphx-glr-download-link-note.admonition.note,
-article.pytorch-article .reference.download.internal, article.pytorch-article .sphx-glr-signature {
+article.shor-article .sphx-glr-download-link-note.admonition.note,
+article.shor-article .reference.download.internal, article.shor-article .sphx-glr-signature {
   display: none;
 }
-article.pytorch-article .admonition > p:last-of-type {
+article.shor-article .admonition > p:last-of-type {
   margin-bottom: 0;
   padding-bottom: 1.125rem !important;
 }
 
-.pytorch-article div.sphx-glr-download a {
+.shor-article div.sphx-glr-download a {
   background-color: #f3f4f7;
   background-image: url("../images/arrow-down-orange.svg");
   background-repeat: no-repeat;
@@ -10937,7 +10937,7 @@ article.pytorch-article .admonition > p:last-of-type {
   margin: 1.25rem auto;
 }
 @media screen and (min-width: 768px) {
-  .pytorch-article div.sphx-glr-download a:after {
+  .shor-article div.sphx-glr-download a:after {
     content: "";
     display: block;
     width: 0;
@@ -10949,86 +10949,86 @@ article.pytorch-article .admonition > p:last-of-type {
     -webkit-transition: width .250s ease-in-out;
     transition: width .250s ease-in-out;
   }
-  .pytorch-article div.sphx-glr-download a:hover:after {
+  .shor-article div.sphx-glr-download a:hover:after {
     width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  .pytorch-article div.sphx-glr-download a:after {
+  .shor-article div.sphx-glr-download a:after {
     background-color: #ee4c2c;
   }
 }
 @media screen and (min-width: 768px) {
-  .pytorch-article div.sphx-glr-download a {
+  .shor-article div.sphx-glr-download a {
     background-position: left 20px center;
   }
 }
-.pytorch-article div.sphx-glr-download a:hover {
+.shor-article div.sphx-glr-download a:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   text-decoration: none;
   background-image: url("../images/arrow-down-orange.svg");
   background-color: #f3f4f7;
 }
-.pytorch-article div.sphx-glr-download a span.pre {
+.shor-article div.sphx-glr-download a span.pre {
   background-color: transparent;
   font-size: 1.125rem;
   padding: 0;
   color: #262626;
 }
-.pytorch-article div.sphx-glr-download a code, .pytorch-article div.sphx-glr-download a kbd, .pytorch-article div.sphx-glr-download a pre, .pytorch-article div.sphx-glr-download a samp, .pytorch-article div.sphx-glr-download a span.pre {
+.shor-article div.sphx-glr-download a code, .shor-article div.sphx-glr-download a kbd, .shor-article div.sphx-glr-download a pre, .shor-article div.sphx-glr-download a samp, .shor-article div.sphx-glr-download a span.pre {
   font-family: FreightSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-.pytorch-article p.sphx-glr-script-out {
+.shor-article p.sphx-glr-script-out {
   margin-bottom: 1.125rem;
 }
 
-.pytorch-article div.sphx-glr-script-out {
+.shor-article div.sphx-glr-script-out {
   margin-bottom: 2.5rem;
 }
-.pytorch-article div.sphx-glr-script-out .highlight {
+.shor-article div.sphx-glr-script-out .highlight {
   margin-left: 0;
   margin-top: 0;
 }
-.pytorch-article div.sphx-glr-script-out .highlight pre {
+.shor-article div.sphx-glr-script-out .highlight pre {
   background-color: #fdede9;
   padding: 1.5625rem;
   color: #837b79;
 }
-.pytorch-article div.sphx-glr-script-out + p {
+.shor-article div.sphx-glr-script-out + p {
   margin-top: unset;
 }
 
-article.pytorch-article .wy-table-responsive table {
+article.shor-article .wy-table-responsive table {
   border: none;
   border-color: #ffffff !important;
   table-layout: fixed;
 }
-article.pytorch-article .wy-table-responsive table thead tr {
+article.shor-article .wy-table-responsive table thead tr {
   border-bottom: 2px solid #6c6c6d;
 }
-article.pytorch-article .wy-table-responsive table thead th {
+article.shor-article .wy-table-responsive table thead th {
   line-height: 1.75rem;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
 }
-article.pytorch-article .wy-table-responsive table tbody .row-odd {
+article.shor-article .wy-table-responsive table tbody .row-odd {
   background-color: #f3f4f7;
 }
-article.pytorch-article .wy-table-responsive table tbody td {
+article.shor-article .wy-table-responsive table tbody td {
   color: #6c6c6d;
   white-space: normal;
   padding: 0.9375rem;
   font-size: 1rem;
   line-height: 1.375rem;
 }
-article.pytorch-article .wy-table-responsive table tbody td .pre {
+article.shor-article .wy-table-responsive table tbody td .pre {
   background: #ffffff;
   color: #ee4c2c;
   font-size: 87.5%;
 }
-article.pytorch-article .wy-table-responsive table tbody td code {
+article.shor-article .wy-table-responsive table tbody td code {
   font-size: 87.5%;
 }
 
@@ -11059,47 +11059,47 @@ img.previous-page {
           box-shadow: none;
 }
 
-article.pytorch-article blockquote {
+article.shor-article blockquote {
   margin-left: 3.75rem;
   color: #6c6c6d;
 }
 
-article.pytorch-article .caption {
+article.shor-article .caption {
   color: #6c6c6d;
   letter-spacing: 0.25px;
   line-height: 2.125rem;
 }
 
-article.pytorch-article .math {
+article.shor-article .math {
   color: #262626;
   width: auto;
   text-align: center;
 }
-article.pytorch-article .math img {
+article.shor-article .math img {
   width: auto;
 }
 
-.pytorch-breadcrumbs-wrapper {
+.shor-breadcrumbs-wrapper {
   width: 100%;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-breadcrumbs-wrapper {
+  .shor-breadcrumbs-wrapper {
     float: left;
     margin-left: 3%;
     width: 75%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-breadcrumbs-wrapper {
+  .shor-breadcrumbs-wrapper {
     width: 850px;
     margin-left: 1.875rem;
   }
 }
-.pytorch-breadcrumbs-wrapper .pytorch-breadcrumbs-aside {
+.shor-breadcrumbs-wrapper .shor-breadcrumbs-aside {
   float: right;
 }
 
-.pytorch-article .container {
+.shor-article .container {
   padding-left: 0;
   padding-right: 0;
   max-width: none;
@@ -11162,64 +11162,64 @@ a:hover {
   padding-bottom: 1rem;
 }
 
-.pytorch-call-to-action-links {
+.shor-call-to-action-links {
   padding-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @media screen and (min-width: 768px) {
-  .pytorch-call-to-action-links {
+  .shor-call-to-action-links {
     padding-top: 2.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1239px) {
-  .pytorch-call-to-action-links {
+  .shor-call-to-action-links {
     padding-top: 0;
   }
 }
 @media (min-width: 1100px) and (max-width: 1239px) {
-  .pytorch-call-to-action-links {
+  .shor-call-to-action-links {
     padding-top: 2.5rem;
   }
 }
-.pytorch-call-to-action-links #tutorial-type {
+.shor-call-to-action-links #tutorial-type {
   display: none;
 }
-.pytorch-call-to-action-links .call-to-action-img, .pytorch-call-to-action-links .call-to-action-notebook-img {
+.shor-call-to-action-links .call-to-action-img, .shor-call-to-action-links .call-to-action-notebook-img {
   height: 1.375rem;
   width: 1.375rem;
   margin-right: 10px;
 }
-.pytorch-call-to-action-links .call-to-action-notebook-img {
+.shor-call-to-action-links .call-to-action-notebook-img {
   height: 1rem;
 }
-.pytorch-call-to-action-links a {
+.shor-call-to-action-links a {
   padding-right: 1.25rem;
   color: #000000;
   cursor: pointer;
 }
-.pytorch-call-to-action-links a:hover {
+.shor-call-to-action-links a:hover {
   color: #e44c2c;
 }
-.pytorch-call-to-action-links a .call-to-action-desktop-view {
+.shor-call-to-action-links a .call-to-action-desktop-view {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .pytorch-call-to-action-links a .call-to-action-desktop-view {
+  .shor-call-to-action-links a .call-to-action-desktop-view {
     display: block;
   }
 }
-.pytorch-call-to-action-links a .call-to-action-mobile-view {
+.shor-call-to-action-links a .call-to-action-mobile-view {
   display: block;
 }
 @media screen and (min-width: 768px) {
-  .pytorch-call-to-action-links a .call-to-action-mobile-view {
+  .shor-call-to-action-links a .call-to-action-mobile-view {
     display: none;
   }
 }
-.pytorch-call-to-action-links a #google-colab-link, .pytorch-call-to-action-links a #download-notebook-link,
-.pytorch-call-to-action-links a #github-view-link {
+.shor-call-to-action-links a #google-colab-link, .shor-call-to-action-links a #download-notebook-link,
+.shor-call-to-action-links a #github-view-link {
   padding-bottom: 0.625rem;
   border-bottom: 1px solid #f3f4f7;
   padding-right: 2.5rem;
@@ -11230,8 +11230,8 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
 }
-.pytorch-call-to-action-links a #google-colab-link:hover, .pytorch-call-to-action-links a #download-notebook-link:hover,
-.pytorch-call-to-action-links a #github-view-link:hover {
+.shor-call-to-action-links a #google-colab-link:hover, .shor-call-to-action-links a #download-notebook-link:hover,
+.shor-call-to-action-links a #github-view-link:hover {
   border-bottom-color: #e44c2c;
   color: #e44c2c;
 }
@@ -11455,23 +11455,23 @@ a:hover {
   background-color: #dee2e6;
 }
 
-article.pytorch-article .tutorials-callout-container {
+article.shor-article .tutorials-callout-container {
   padding-bottom: 50px;
 }
-article.pytorch-article .tutorials-callout-container .col-md-6 {
+article.shor-article .tutorials-callout-container .col-md-6 {
   padding-bottom: 10px;
 }
-article.pytorch-article .tutorials-callout-container .text-container {
+article.shor-article .tutorials-callout-container .text-container {
   padding: 10px 0px 30px 0px;
   padding-bottom: 10px;
 }
-article.pytorch-article .tutorials-callout-container .text-container .body-paragraph {
+article.shor-article .tutorials-callout-container .text-container .body-paragraph {
   color: #666666;
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.875rem;
 }
-article.pytorch-article .tutorials-callout-container .btn.callout-button {
+article.shor-article .tutorials-callout-container .btn.callout-button {
   font-size: 1.125rem;
   border-radius: 0;
   border: none;
@@ -11482,7 +11482,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button {
   letter-spacing: 0.25px;
 }
 @media screen and (min-width: 768px) {
-  article.pytorch-article .tutorials-callout-container .btn.callout-button:after {
+  article.shor-article .tutorials-callout-container .btn.callout-button:after {
     content: "";
     display: block;
     width: 0;
@@ -11494,47 +11494,47 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button {
     -webkit-transition: width .250s ease-in-out;
     transition: width .250s ease-in-out;
   }
-  article.pytorch-article .tutorials-callout-container .btn.callout-button:hover:after {
+  article.shor-article .tutorials-callout-container .btn.callout-button:hover:after {
     width: 100%;
   }
 }
-article.pytorch-article .tutorials-callout-container .btn.callout-button a {
+article.shor-article .tutorials-callout-container .btn.callout-button a {
   color: inherit;
 }
 
-.pytorch-container {
+.shor-container {
   margin: 0 auto;
   padding: 0 1.875rem;
   width: auto;
   position: relative;
 }
 @media screen and (min-width: 1100px) {
-  .pytorch-container {
+  .shor-container {
     padding: 0;
   }
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-container {
+  .shor-container {
     margin-left: 25%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-container {
+  .shor-container {
     margin-left: 350px;
   }
 }
-.pytorch-container:before, .pytorch-container:after {
+.shor-container:before, .shor-container:after {
   content: "";
   display: table;
 }
-.pytorch-container:after {
+.shor-container:after {
   clear: both;
 }
-.pytorch-container {
+.shor-container {
   *zoom: 1;
 }
 
-.pytorch-content-wrap {
+.shor-content-wrap {
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11542,18 +11542,18 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   position: relative;
   padding-top: 0;
 }
-.pytorch-content-wrap:before, .pytorch-content-wrap:after {
+.shor-content-wrap:before, .shor-content-wrap:after {
   content: "";
   display: table;
 }
-.pytorch-content-wrap:after {
+.shor-content-wrap:after {
   clear: both;
 }
-.pytorch-content-wrap {
+.shor-content-wrap {
   *zoom: 1;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-content-wrap {
+  .shor-content-wrap {
     padding-top: 45px;
     float: left;
     width: 100%;
@@ -11561,24 +11561,24 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-content-wrap {
+  .shor-content-wrap {
     width: 100%;
   }
 }
 
-.pytorch-content {
+.shor-content {
   background: #ffffff;
   width: 100%;
   max-width: 700px;
   position: relative;
 }
 
-.pytorch-content-left {
+.shor-content-left {
   margin-top: 2.5rem;
   width: 100%;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-content-left {
+  .shor-content-left {
     margin-top: 0;
     margin-left: 3%;
     width: 75%;
@@ -11586,29 +11586,29 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-content-left {
+  .shor-content-left {
     width: 850px;
     margin-left: 30px;
   }
 }
-.pytorch-content-left .main-content {
+.shor-content-left .main-content {
   padding-top: 0.9375rem;
 }
-.pytorch-content-left .main-content ul.simple {
+.shor-content-left .main-content ul.simple {
   padding-bottom: 1.25rem;
 }
-.pytorch-content-left .main-content .note:nth-child(1), .pytorch-content-left .main-content .warning:nth-child(1) {
+.shor-content-left .main-content .note:nth-child(1), .shor-content-left .main-content .warning:nth-child(1) {
   margin-top: 0;
 }
 
-.pytorch-content-right {
+.shor-content-right {
   display: none;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-content-right {
+  .shor-content-right {
     display: block;
     margin-left: 0;
     width: 19%;
@@ -11617,13 +11617,13 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-content-right {
+  .shor-content-right {
     width: 280px;
   }
 }
 
 @media screen and (min-width: 1101px) {
-  .pytorch-side-scroll {
+  .shor-side-scroll {
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -11631,11 +11631,11 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 
-.pytorch-menu-vertical {
+.shor-menu-vertical {
   padding: 1.25rem 1.875rem 2.5rem 1.875rem;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-menu-vertical {
+  .shor-menu-vertical {
     display: block;
     padding-top: 0;
     padding-right: 13.5%;
@@ -11643,20 +11643,20 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-menu-vertical {
+  .shor-menu-vertical {
     padding-left: 0;
     padding-right: 1.5625rem;
   }
 }
 
-.pytorch-left-menu {
+.shor-left-menu {
   display: none;
   background-color: #f3f4f7;
   color: #262626;
   overflow: scroll;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-left-menu {
+  .shor-left-menu {
     display: block;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -11666,7 +11666,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
     z-index: 200;
     float: left;
   }
-  .pytorch-left-menu.make-fixed {
+  .shor-left-menu.make-fixed {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -11675,7 +11675,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-left-menu {
+  .shor-left-menu {
     padding: 0 0 0 1.875rem;
     width: 350px;
   }
@@ -11695,7 +11695,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   padding-top: 1rem;
 }
 
-.pytorch-left-menu p.caption {
+.shor-left-menu p.caption {
   color: #262626;
   display: block;
   font-size: 1rem;
@@ -11705,32 +11705,32 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   white-space: nowrap;
 }
 
-.pytorch-left-menu-search {
+.shor-left-menu-search {
   margin-bottom: 2.5rem;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-left-menu-search {
+  .shor-left-menu-search {
     margin: 1.25rem 0.625rem 1.875rem 0;
   }
 }
 
-.pytorch-left-menu-search ::-webkit-input-placeholder {
+.shor-left-menu-search ::-webkit-input-placeholder {
   color: #262626;
 }
-.pytorch-left-menu-search ::-moz-placeholder {
+.shor-left-menu-search ::-moz-placeholder {
   color: #262626;
 }
-.pytorch-left-menu-search :-ms-input-placeholder {
+.shor-left-menu-search :-ms-input-placeholder {
   color: #262626;
 }
-.pytorch-left-menu-search ::-ms-input-placeholder {
+.shor-left-menu-search ::-ms-input-placeholder {
   color: #262626;
 }
-.pytorch-left-menu-search ::placeholder {
+.shor-left-menu-search ::placeholder {
   color: #262626;
 }
 
-.pytorch-left-menu-search input[type=text] {
+.shor-left-menu-search input[type=text] {
   border-radius: 0;
   padding: 0.5rem 0.75rem;
   border-color: #ffffff;
@@ -11746,22 +11746,22 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   padding-left: 40px;
   background-color: #ffffff;
 }
-.pytorch-left-menu-search input[type=text]:focus {
+.shor-left-menu-search input[type=text]:focus {
   outline: 0;
 }
 
 @media screen and (min-width: 1101px) {
-  .pytorch-left-menu .pytorch-side-scroll {
+  .shor-left-menu .shor-side-scroll {
     width: 120%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-left-menu .pytorch-side-scroll {
+  .shor-left-menu .shor-side-scroll {
     width: 340px;
   }
 }
 
-.pytorch-right-menu {
+.shor-right-menu {
   min-height: 100px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -11771,102 +11771,102 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   position: relative;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-right-menu {
+  .shor-right-menu {
     width: 100%;
   }
-  .pytorch-right-menu.scrolling-fixed {
+  .shor-right-menu.scrolling-fixed {
     position: fixed;
     top: 45px;
     left: 83.5%;
     width: 14%;
   }
-  .pytorch-right-menu.scrolling-absolute {
+  .shor-right-menu.scrolling-absolute {
     position: absolute;
     left: 0;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-right-menu {
+  .shor-right-menu {
     left: 0;
     width: 380px;
   }
-  .pytorch-right-menu.scrolling-fixed {
+  .shor-right-menu.scrolling-fixed {
     position: fixed;
     top: 45px;
     left: 1230px;
   }
-  .pytorch-right-menu.scrolling-absolute {
+  .shor-right-menu.scrolling-absolute {
     position: absolute;
     left: 0;
   }
 }
 
-.pytorch-left-menu ul,
-.pytorch-right-menu ul {
+.shor-left-menu ul,
+.shor-right-menu ul {
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 2.5rem;
 }
-.pytorch-left-menu > ul,
-.pytorch-right-menu > ul {
+.shor-left-menu > ul,
+.shor-right-menu > ul {
   margin-bottom: 2.5rem;
 }
-.pytorch-left-menu a:link,
-.pytorch-left-menu a:visited,
-.pytorch-left-menu a:hover,
-.pytorch-right-menu a:link,
-.pytorch-right-menu a:visited,
-.pytorch-right-menu a:hover {
+.shor-left-menu a:link,
+.shor-left-menu a:visited,
+.shor-left-menu a:hover,
+.shor-right-menu a:link,
+.shor-right-menu a:visited,
+.shor-right-menu a:hover {
   color: #6c6c6d;
   font-size: 0.875rem;
   line-height: 1rem;
   padding: 0;
   text-decoration: none;
 }
-.pytorch-left-menu a:link.reference.internal,
-.pytorch-left-menu a:visited.reference.internal,
-.pytorch-left-menu a:hover.reference.internal,
-.pytorch-right-menu a:link.reference.internal,
-.pytorch-right-menu a:visited.reference.internal,
-.pytorch-right-menu a:hover.reference.internal {
+.shor-left-menu a:link.reference.internal,
+.shor-left-menu a:visited.reference.internal,
+.shor-left-menu a:hover.reference.internal,
+.shor-right-menu a:link.reference.internal,
+.shor-right-menu a:visited.reference.internal,
+.shor-right-menu a:hover.reference.internal {
   margin-bottom: 0.3125rem;
   position: relative;
 }
-.pytorch-left-menu li code,
-.pytorch-right-menu li code {
+.shor-left-menu li code,
+.shor-right-menu li code {
   border: none;
   background: inherit;
   color: inherit;
   padding-left: 0;
   padding-right: 0;
 }
-.pytorch-left-menu li span.toctree-expand,
-.pytorch-right-menu li span.toctree-expand {
+.shor-left-menu li span.toctree-expand,
+.shor-right-menu li span.toctree-expand {
   display: block;
   float: left;
   margin-left: -1.2em;
   font-size: 0.8em;
   line-height: 1.6em;
 }
-.pytorch-left-menu li.on a, .pytorch-left-menu li.current > a,
-.pytorch-right-menu li.on a,
-.pytorch-right-menu li.current > a {
+.shor-left-menu li.on a, .shor-left-menu li.current > a,
+.shor-right-menu li.on a,
+.shor-right-menu li.current > a {
   position: relative;
   border: none;
 }
-.pytorch-left-menu li.on a span.toctree-expand, .pytorch-left-menu li.current > a span.toctree-expand,
-.pytorch-right-menu li.on a span.toctree-expand,
-.pytorch-right-menu li.current > a span.toctree-expand {
+.shor-left-menu li.on a span.toctree-expand, .shor-left-menu li.current > a span.toctree-expand,
+.shor-right-menu li.on a span.toctree-expand,
+.shor-right-menu li.current > a span.toctree-expand {
   display: block;
   font-size: 0.8em;
   line-height: 1.6em;
 }
-.pytorch-left-menu li.toctree-l1.current > a,
-.pytorch-right-menu li.toctree-l1.current > a {
+.shor-left-menu li.toctree-l1.current > a,
+.shor-right-menu li.toctree-l1.current > a {
   color: #ee4c2c;
 }
-.pytorch-left-menu li.toctree-l1.current > a:before,
-.pytorch-right-menu li.toctree-l1.current > a:before {
+.shor-left-menu li.toctree-l1.current > a:before,
+.shor-right-menu li.toctree-l1.current > a:before {
   content: "\2022";
   display: inline-block;
   position: absolute;
@@ -11876,97 +11876,97 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   color: #ee4c2c;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-left-menu li.toctree-l1.current > a:before,
-  .pytorch-right-menu li.toctree-l1.current > a:before {
+  .shor-left-menu li.toctree-l1.current > a:before,
+  .shor-right-menu li.toctree-l1.current > a:before {
     left: -20px;
   }
 }
-.pytorch-left-menu li.toctree-l1.current li.toctree-l2 > ul, .pytorch-left-menu li.toctree-l2.current li.toctree-l3 > ul,
-.pytorch-right-menu li.toctree-l1.current li.toctree-l2 > ul,
-.pytorch-right-menu li.toctree-l2.current li.toctree-l3 > ul {
+.shor-left-menu li.toctree-l1.current li.toctree-l2 > ul, .shor-left-menu li.toctree-l2.current li.toctree-l3 > ul,
+.shor-right-menu li.toctree-l1.current li.toctree-l2 > ul,
+.shor-right-menu li.toctree-l2.current li.toctree-l3 > ul {
   display: none;
 }
-.pytorch-left-menu li.toctree-l1.current li.toctree-l2.current > ul, .pytorch-left-menu li.toctree-l2.current li.toctree-l3.current > ul,
-.pytorch-right-menu li.toctree-l1.current li.toctree-l2.current > ul,
-.pytorch-right-menu li.toctree-l2.current li.toctree-l3.current > ul {
+.shor-left-menu li.toctree-l1.current li.toctree-l2.current > ul, .shor-left-menu li.toctree-l2.current li.toctree-l3.current > ul,
+.shor-right-menu li.toctree-l1.current li.toctree-l2.current > ul,
+.shor-right-menu li.toctree-l2.current li.toctree-l3.current > ul {
   display: block;
 }
-.pytorch-left-menu li.toctree-l2.current li.toctree-l3 > a,
-.pytorch-right-menu li.toctree-l2.current li.toctree-l3 > a {
+.shor-left-menu li.toctree-l2.current li.toctree-l3 > a,
+.shor-right-menu li.toctree-l2.current li.toctree-l3 > a {
   display: block;
 }
-.pytorch-left-menu li.toctree-l3,
-.pytorch-right-menu li.toctree-l3 {
+.shor-left-menu li.toctree-l3,
+.shor-right-menu li.toctree-l3 {
   font-size: 0.9em;
 }
-.pytorch-left-menu li.toctree-l3.current li.toctree-l4 > a,
-.pytorch-right-menu li.toctree-l3.current li.toctree-l4 > a {
+.shor-left-menu li.toctree-l3.current li.toctree-l4 > a,
+.shor-right-menu li.toctree-l3.current li.toctree-l4 > a {
   display: block;
 }
-.pytorch-left-menu li.toctree-l4,
-.pytorch-right-menu li.toctree-l4 {
+.shor-left-menu li.toctree-l4,
+.shor-right-menu li.toctree-l4 {
   font-size: 0.9em;
 }
-.pytorch-left-menu li.current ul,
-.pytorch-right-menu li.current ul {
+.shor-left-menu li.current ul,
+.shor-right-menu li.current ul {
   display: block;
 }
-.pytorch-left-menu li ul,
-.pytorch-right-menu li ul {
+.shor-left-menu li ul,
+.shor-right-menu li ul {
   margin-bottom: 0;
   display: none;
 }
-.pytorch-left-menu li ul li a,
-.pytorch-right-menu li ul li a {
+.shor-left-menu li ul li a,
+.shor-right-menu li ul li a {
   margin-bottom: 0;
 }
-.pytorch-left-menu a,
-.pytorch-right-menu a {
+.shor-left-menu a,
+.shor-right-menu a {
   display: inline-block;
   position: relative;
 }
-.pytorch-left-menu a:hover,
-.pytorch-right-menu a:hover {
+.shor-left-menu a:hover,
+.shor-right-menu a:hover {
   cursor: pointer;
 }
-.pytorch-left-menu a:active,
-.pytorch-right-menu a:active {
+.shor-left-menu a:active,
+.shor-right-menu a:active {
   cursor: pointer;
 }
 
-.pytorch-left-menu ul {
+.shor-left-menu ul {
   padding-left: 0;
 }
 
-.pytorch-right-menu a:link,
-.pytorch-right-menu a:visited,
-.pytorch-right-menu a:hover {
+.shor-right-menu a:link,
+.shor-right-menu a:visited,
+.shor-right-menu a:hover {
   color: #6c6c6d;
 }
-.pytorch-right-menu a:link span.pre,
-.pytorch-right-menu a:visited span.pre,
-.pytorch-right-menu a:hover span.pre {
+.shor-right-menu a:link span.pre,
+.shor-right-menu a:visited span.pre,
+.shor-right-menu a:hover span.pre {
   color: #6c6c6d;
 }
-.pytorch-right-menu a.reference.internal.expanded:before {
+.shor-right-menu a.reference.internal.expanded:before {
   content: "-";
   font-family: monospace;
   position: absolute;
   left: -12px;
 }
-.pytorch-right-menu a.reference.internal.not-expanded:before {
+.shor-right-menu a.reference.internal.not-expanded:before {
   content: "+";
   font-family: monospace;
   position: absolute;
   left: -12px;
 }
-.pytorch-right-menu li.active > a {
+.shor-right-menu li.active > a {
   color: #ee4c2c;
 }
-.pytorch-right-menu li.active > a span.pre, .pytorch-right-menu li.active > a:before {
+.shor-right-menu li.active > a span.pre, .shor-right-menu li.active > a:before {
   color: #ee4c2c;
 }
-.pytorch-right-menu li.active > a:after {
+.shor-right-menu li.active > a:after {
   content: "\2022";
   color: #e44c2c;
   display: inline-block;
@@ -11975,57 +11975,57 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   position: absolute;
   top: 1px;
 }
-.pytorch-right-menu .pytorch-side-scroll > ul > li > ul > li {
+.shor-right-menu .shor-side-scroll > ul > li > ul > li {
   margin-bottom: 0;
 }
-.pytorch-right-menu ul ul {
+.shor-right-menu ul ul {
   padding-left: 0;
 }
-.pytorch-right-menu ul ul li {
+.shor-right-menu ul ul li {
   padding-left: 0px;
 }
-.pytorch-right-menu ul ul li a.reference.internal {
+.shor-right-menu ul ul li a.reference.internal {
   padding-left: 0;
 }
-.pytorch-right-menu ul ul li ul {
+.shor-right-menu ul ul li ul {
   display: none;
   padding-left: 10px;
 }
-.pytorch-right-menu ul ul li li a.reference.internal {
+.shor-right-menu ul ul li li a.reference.internal {
   padding-left: 0;
 }
-.pytorch-right-menu li ul {
+.shor-right-menu li ul {
   display: block;
 }
 
-.pytorch-right-menu .pytorch-side-scroll {
+.shor-right-menu .shor-side-scroll {
   padding-top: 20px;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-right-menu .pytorch-side-scroll {
+  .shor-right-menu .shor-side-scroll {
     width: 120%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-right-menu .pytorch-side-scroll {
+  .shor-right-menu .shor-side-scroll {
     width: 400px;
   }
 }
-.pytorch-right-menu .pytorch-side-scroll > ul {
+.shor-right-menu .shor-side-scroll > ul {
   padding-left: 10%;
   padding-right: 10%;
   margin-bottom: 0;
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-right-menu .pytorch-side-scroll > ul {
+  .shor-right-menu .shor-side-scroll > ul {
     padding-left: 25px;
   }
 }
-.pytorch-right-menu .pytorch-side-scroll > ul > li > a.reference.internal {
+.shor-right-menu .shor-side-scroll > ul > li > a.reference.internal {
   color: #262626;
   font-weight: 500;
 }
-.pytorch-right-menu .pytorch-side-scroll ul li {
+.shor-right-menu .shor-side-scroll ul li {
   position: relative;
 }
 
@@ -12080,7 +12080,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 
-.pytorch-page-level-bar {
+.shor-page-level-bar {
   display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -12091,7 +12091,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   z-index: 201;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-page-level-bar {
+  .shor-page-level-bar {
     left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12102,7 +12102,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
     position: absolute;
     z-index: 1;
   }
-  .pytorch-page-level-bar.left-menu-is-fixed {
+  .shor-page-level-bar.left-menu-is-fixed {
     position: fixed;
     top: 0;
     left: 25%;
@@ -12112,34 +12112,34 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-page-level-bar {
+  .shor-page-level-bar {
     left: 0;
     right: 0;
     width: auto;
     z-index: 1;
   }
-  .pytorch-page-level-bar.left-menu-is-fixed {
+  .shor-page-level-bar.left-menu-is-fixed {
     left: 350px;
     right: 0;
     width: auto;
   }
 }
-.pytorch-page-level-bar ul, .pytorch-page-level-bar li {
+.shor-page-level-bar ul, .shor-page-level-bar li {
   margin: 0;
 }
 
-.pytorch-shortcuts-wrapper {
+.shor-shortcuts-wrapper {
   display: none;
 }
 @media screen and (min-width: 1101px) {
-  .pytorch-shortcuts-wrapper {
+  .shor-shortcuts-wrapper {
     font-size: 0.875rem;
     float: left;
     margin-left: 2%;
   }
 }
 @media screen and (min-width: 1600px) {
-  .pytorch-shortcuts-wrapper {
+  .shor-shortcuts-wrapper {
     margin-left: 1.875rem;
   }
 }

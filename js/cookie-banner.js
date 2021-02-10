@@ -15,7 +15,7 @@ var cookieBanner = {
   },
 
   cookieExists: function() {
-    var cookie = localStorage.getItem("returningPytorchUser");
+    var cookie = localStorage.getItem("returningShorUser");
 
     if (cookie) {
       return true;
@@ -25,7 +25,7 @@ var cookieBanner = {
   },
 
   setCookie: function() {
-    localStorage.setItem("returningPytorchUser", true);
+    localStorage.setItem("returningShorUser", true);
   },
 
   showCookieNotice: function() {

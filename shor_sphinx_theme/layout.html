@@ -85,7 +85,7 @@
 <div class="container-fluid header-holder tutorials-header" id="header-holder">
   <div class="container">
     <div class="header-container">
-      <a class="header-logo" href="{{ theme_variables.external_urls['home'] }}" aria-label="PyTorch"></a>
+      <a class="header-logo" href="{{ theme_variables.external_urls['home'] }}" aria-label="Shor"></a>
 
       <div class="main-menu">
         <ul>
@@ -105,18 +105,18 @@
             <a href="{{ theme_variables.external_urls['blog'] }}">Blog</a>
           </li>
 
-          <li {%- if theme_pytorch_project == 'tutorials' %} class="active"{% endif %}>
+          <li {%- if theme_shor_project == 'tutorials' %} class="active"{% endif %}>
             <a href="{{ theme_variables.external_urls['tutorials'] }}">Tutorials</a>
           </li>
 
-          <li {%- if theme_pytorch_project == 'docs' %} class="active"{% endif %}>
+          <li {%- if theme_shor_project == 'docs' %} class="active"{% endif %}>
             <div id="resourcesDropdownButton" data-toggle="resources-dropdown" class="resources-dropdown">
               <a class="resource-option with-down-orange-arrow">
                 Docs
               </a>
               <div class="resources-dropdown-menu">
                 <a class="doc-dropdown-option nav-dropdown-item" href="{{ theme_variables.external_urls['docs'] }}">
-                  <span class="dropdown-title">PyTorch</span>
+                  <span class="dropdown-title">Shor</span>
                   <p></p>
                 </a>
                 <a class="doc-dropdown-option nav-dropdown-item" href="{{ theme_variables.external_urls['audio'] }}">
@@ -140,7 +140,7 @@
                   <p></p>
                 </a>
                 <a class="doc-dropdown-option nav-dropdown-item" href="{{ theme_variables.external_urls['xla'] }}">
-                  <span class="dropdown-title">PyTorch on XLA Devices</span>
+                  <span class="dropdown-title">Shor on XLA Devices</span>
                   <p></p>
                 </a>
             </div>
@@ -154,11 +154,11 @@
               <div class="resources-dropdown-menu">
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['features'] }}">
                   <span class="dropdown-title">About</span>
-                  <p>Learn about PyTorch’s features and capabilities</p>
+                  <p>Learn about Shor’s features and capabilities</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['community'] }}">
                   <span class="dropdown-title">Community</span>
-                  <p>Join the PyTorch developer community to contribute, learn, and get your questions answered.</p>
+                  <p>Join the Shor developer community to contribute, learn, and get your questions answered.</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['resources'] }}">
                   <span class="dropdown-title">Developer Resources</span>
@@ -166,7 +166,7 @@
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['forums'] }}" target="_blank">
                   <span class="dropdown-title">Forums</span>
-                  <p>A place to discuss PyTorch code, issues, install, research</p>
+                  <p>A place to discuss Shor code, issues, install, research</p>
                 </a>
                 <a class="nav-dropdown-item" href="{{ theme_variables.external_urls['hub'] }}">
                   <span class="dropdown-title">Models (Beta)</span>
@@ -187,7 +187,7 @@
   </div>
 </div>
 
-<body class="pytorch-body">
+<body class="shor-body">
 
   {% block extrabody %} {% endblock %}
 
@@ -198,10 +198,10 @@
       <a href="#" class="toggle-table-of-contents" data-behavior="toggle-table-of-contents"></a>
     </div>
 
-    <nav data-toggle="wy-nav-shift" class="pytorch-left-menu" id="pytorch-left-menu">
-      <div class="pytorch-side-scroll">
-        <div class="pytorch-menu pytorch-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          <div class="pytorch-left-menu-search">
+    <nav data-toggle="wy-nav-shift" class="shor-left-menu" id="shor-left-menu">
+      <div class="shor-side-scroll">
+        <div class="shor-menu shor-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          <div class="shor-left-menu-search">
             {% block sidebartitle %}
 
             {% if theme_display_version %}
@@ -243,37 +243,37 @@
       </div>
     </nav>
 
-    <div class="pytorch-container">
-      <div class="pytorch-page-level-bar" id="pytorch-page-level-bar">
-        <div class="pytorch-breadcrumbs-wrapper">
+    <div class="shor-container">
+      <div class="shor-page-level-bar" id="shor-page-level-bar">
+        <div class="shor-breadcrumbs-wrapper">
           {% include "breadcrumbs.html" %}
         </div>
 
-        <div class="pytorch-shortcuts-wrapper" id="pytorch-shortcuts-wrapper">
+        <div class="shor-shortcuts-wrapper" id="shor-shortcuts-wrapper">
           Shortcuts
         </div>
       </div>
 
-      <section data-toggle="wy-nav-shift" id="pytorch-content-wrap" class="pytorch-content-wrap">
-        <div class="pytorch-content-left">
+      <section data-toggle="wy-nav-shift" id="shor-content-wrap" class="shor-content-wrap">
+        <div class="shor-content-left">
 
-        {% if theme_pytorch_project == 'tutorials' %}
+        {% if theme_shor_project == 'tutorials' %}
 
-          <div class="pytorch-call-to-action-links">
+          <div class="shor-call-to-action-links">
             <div id="tutorial-type">{{ pagename }}</div>
 
             <div id="google-colab-link">
-              <img class="call-to-action-img" src="{{ pathto('_static/images/pytorch-colab.svg', 1) }}"/>
+              <img class="call-to-action-img" src="{{ pathto('_static/images/shor-colab.svg', 1) }}"/>
               <div class="call-to-action-desktop-view">Run in Google Colab</div>
               <div class="call-to-action-mobile-view">Colab</div>
             </div>
             <div id="download-notebook-link">
-              <img class="call-to-action-notebook-img" src="{{ pathto('_static/images/pytorch-download.svg', 1) }}"/>
+              <img class="call-to-action-notebook-img" src="{{ pathto('_static/images/shor-download.svg', 1) }}"/>
               <div class="call-to-action-desktop-view">Download Notebook</div>
               <div class="call-to-action-mobile-view">Notebook</div>
             </div>
             <div id="github-view-link">
-              <img class="call-to-action-img" src="{{ pathto('_static/images/pytorch-github.svg', 1) }}"/>
+              <img class="call-to-action-img" src="{{ pathto('_static/images/shor-github.svg', 1) }}"/>
               <div class="call-to-action-desktop-view">View on GitHub</div>
               <div class="call-to-action-mobile-view">GitHub</div>
             </div>
@@ -289,7 +289,7 @@
           {% endif %}
             <div role="main" class="main-content" itemscope="itemscope" itemtype="http://schema.org/Article">
             {%- block document %}
-             <article itemprop="articleBody" id="pytorch-article" class="pytorch-article">
+             <article itemprop="articleBody" id="shor-article" class="shor-article">
               {% block body %}{% endblock %}
              </article>
              {% if self.comments()|trim %}
@@ -304,9 +304,9 @@
         {%- endblock %}
         </div>
 
-        <div class="pytorch-content-right" id="pytorch-content-right">
-          <div class="pytorch-right-menu" id="pytorch-right-menu">
-            <div class="pytorch-side-scroll" id="pytorch-side-scroll-right">
+        <div class="shor-content-right" id="shor-content-right">
+          <div class="shor-right-menu" id="shor-right-menu">
+            <div class="shor-side-scroll" id="shor-side-scroll-right">
               {{ toc }}
             </div>
           </div>
@@ -362,7 +362,7 @@
       <div class="row">
         <div class="col-md-4 text-center">
           <h2>Docs</h2>
-          <p>Access comprehensive developer documentation for PyTorch</p>
+          <p>Access comprehensive developer documentation for Shor</p>
           <a class="with-right-arrow" href="{{ theme_variables.external_urls['docs'] }}">View Docs</a>
         </div>
 
@@ -390,7 +390,7 @@
       <div class="footer-links-wrapper">
         <div class="footer-links-col">
           <ul>
-            <li class="list-title"><a href="{{ theme_variables.external_urls['home'] }}">PyTorch</a></li>
+            <li class="list-title"><a href="{{ theme_variables.external_urls['home'] }}">Shor</a></li>
             <li><a href="{{ theme_variables.external_urls['get_started'] }}">Get Started</a></li>
             <li><a href="{{ theme_variables.external_urls['features'] }}">Features</a></li>
             <li><a href="{{ theme_variables.external_urls['ecosystem'] }}">Ecosystem</a></li>
@@ -466,7 +466,7 @@
     <div class="container-fluid">
       <div class="container">
         <div class="mobile-main-menu-header-container">
-          <a class="header-logo" href="{{ theme_variables.external_urls['home'] }}" aria-label="PyTorch"></a>
+          <a class="header-logo" href="{{ theme_variables.external_urls['home'] }}" aria-label="Shor"></a>
           <a class="main-menu-close-button" href="#" data-behavior="close-mobile-menu"></a>
         </div>
       </div>
@@ -488,24 +488,24 @@
           </li>
 
           <li>
-            <a href="{{ theme_variables.external_urls['hub'] }}">PyTorch Hub</a>
+            <a href="{{ theme_variables.external_urls['hub'] }}">Shor Hub</a>
           </li>
 
           <li>
             <a href="{{ theme_variables.external_urls['blog'] }}">Blog</a>
           </li>
 
-          <li {%- if theme_pytorch_project == 'tutorials' %} class="active"{%- endif %}>
+          <li {%- if theme_shor_project == 'tutorials' %} class="active"{%- endif %}>
             <a href="{{ theme_variables.external_urls['tutorials'] }}">Tutorials</a>
           </li>
 
-          <li class="resources-mobile-menu-title" {%- if theme_pytorch_project == 'docs' %} class="active"{%- endif %}>
+          <li class="resources-mobile-menu-title" {%- if theme_shor_project == 'docs' %} class="active"{%- endif %}>
             Docs
           </li>
 
           <ul class="resources-mobile-menu-items">
             <li>
-              <a href="{{ theme_variables.external_urls['docs'] }}">PyTorch</a>
+              <a href="{{ theme_variables.external_urls['docs'] }}">Shor</a>
             </li>
 
             <li>
@@ -529,7 +529,7 @@
             </li>
 
             <li>
-              <a href="{{ theme_variables.external_urls['xla'] }}">PyTorch on XLA Devices</a>
+              <a href="{{ theme_variables.external_urls['xla'] }}">Shor on XLA Devices</a>
             </li>
           </ul>
 
@@ -575,7 +575,7 @@
     $(document).ready(function() {
       mobileMenu.bind();
       mobileTOC.bind();
-      pytorchAnchors.bind();
+      shorAnchors.bind();
       sideMenus.bind();
       scrollToAnchor.bind();
       highlightNavigation.bind();
@@ -583,7 +583,7 @@
       filterTags.bind();
 
       // Add class to links that have code blocks, since we cannot create links in code blocks
-      $("article.pytorch-article a span.pre").each(function(e) {
+      $("article.shor-article a span.pre").each(function(e) {
         $(this).closest("a").addClass("has-code");
       });
     })
