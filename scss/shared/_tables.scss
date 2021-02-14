@@ -52,7 +52,6 @@ article.shor-article {
 
   table {
     margin-bottom: rem(40px);
-    width: inherit;
   }
 
   table thead {
@@ -130,9 +129,5 @@ article.shor-article {
 
   td img {
     width: inherit;
-  }
-  a:hover {
-    border-bottom: 1px solid;
-    text-decoration: none;
   }
 }

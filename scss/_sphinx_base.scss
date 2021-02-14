@@ -67,12 +67,12 @@ p {
   a:link,
   a:visited,
   a:hover {
-    color: $red_orange;
+    color: $link_color;
   }
 }
 
 .wy-breadcrumbs li a {
-  color: $red_orange;
+  color: $link_color;
 }
 
 ul.shor-breadcrumbs {
@@ -85,7 +85,7 @@ ul.shor-breadcrumbs {
   }
 
   a {
-    color: $red_orange;
+    color: $link_color;
     text-decoration: none;
   }
 }
@@ -169,8 +169,11 @@ ul.shor-breadcrumbs {
     }
   }
 
+  div:last-child {
+    padding-bottom: rem(20px);
+  }
+
   div[role="contentinfo"] {
-    padding-top: rem(40px);
     p {
       margin-bottom: 0;
     }
@@ -327,7 +330,7 @@ article.shor-article .sphx-glr-thumbcontainer {
   @include animated_border_hover_state;
   @include desktop {
     &:after {
-      background-color: $red_orange;
+      background-color: $amber;
     }
   }
 }
@@ -348,7 +351,7 @@ article.shor-article {
       position: relative;
       background: $light_grey;
       padding: rem(8px);
-      border-left: 3px solid $red_orange;
+      border-left: 3px solid $amber;
       word-wrap: break-word;
       padding-right: 100px;
 
@@ -370,7 +373,7 @@ article.shor-article {
       }
       &:hover {
         .viewcode-link {
-          color: $red_orange;
+          color: $amber;
         }
       }
     }
@@ -451,7 +454,7 @@ article.shor-article {
     @extend .function;
     dt {
       border-left: none;
-      border-top: 3px solid $red_orange;
+      border-top: 3px solid $amber;
       padding-left: 4em;
       em.property {
         position: absolute;
@@ -470,7 +473,7 @@ article.shor-article {
     em.property {
       text-transform: uppercase;
       font-style: normal;
-      color: $red_orange;
+      color: $amber;
       font-size: rem(16px);
       letter-spacing: 0;
       padding-right: rem(12px);
@@ -485,7 +488,7 @@ article.shor-article {
     .method,
     .staticmethod {
       dt {
-        border-left: 3px solid $red_orange;
+        border-left: 3px solid $amber;
         border-top: none;
       }
       dt {
@@ -653,7 +656,7 @@ article.shor-article {
     @include animated_border_hover_state;
     @include desktop {
       &:after {
-        background-color: $red_orange;
+        background-color: $amber;
       }
     }
 
@@ -731,7 +734,7 @@ article.shor-article {
           line-height: rem(22px);
           .pre {
             background: $white;
-            color: $red_orange;
+            color: $amber;
             font-size: 87.5%;
           }
           code {
@@ -818,38 +821,40 @@ article.shor-article {
 }
 
 a:link,
-a:visited,
+a:visited {
+  color: $link_color;
+}
 a:hover {
-  color: $red_orange;
+  color: $link_hover_color;
 }
 
 ::-webkit-input-placeholder {
-  color: $red_orange;
+  color: $amber;
 }
 
 ::-moz-placeholder {
-  color: $red_orange;
+  color: $amber;
 }
 
 :-ms-input-placeholder {
-  color: $red_orange;
+  color: $amber;
 }
 
 :-moz-placeholder {
-  color: $red_orange;
+  color: $amber;
 }
 
 .site-footer {
   @include desktop {
     a:hover {
-      color: $red_orange;
+      color: $amber;
     }
   }
 }
 
 .docs-tutorials-resources {
   a {
-    color: $red_orange;
+    color: $amber;
   }
 }
 
@@ -862,11 +867,11 @@ a:hover {
   ul li {
     &.active {
       &:after {
-        color: $red_orange;
+        color: $amber;
       }
 
       a {
-        color: $red_orange;
+        color: $amber;
       }
     }
   }
@@ -874,7 +879,7 @@ a:hover {
   ul li a {
     @include full-nav-menu-desktop {
       &:hover {
-        color: $red_orange;
+        color: $amber;
       }
     }
   }
@@ -882,7 +887,7 @@ a:hover {
 
 .mobile-main-menu.open {
   ul li.active a {
-    color: $red_orange;
+    color: $amber;
   }
 }
 
@@ -925,7 +930,7 @@ a:hover {
     color: $black;
     cursor: pointer;
     &:hover {
-      color: $orange;
+      color: $link_color;
     }
 
     .call-to-action-desktop-view {
@@ -950,8 +955,8 @@ a:hover {
       display: flex;
       align-items: center;
       &:hover {
-        border-bottom-color: $orange;
-        color: $orange;
+        border-bottom-color: $link_color;
+        color: $link_color;
       }
     }
   }

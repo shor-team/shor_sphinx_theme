@@ -45,7 +45,6 @@
 }
 
 .shor-content-left {
-  min-height: 100vh;
   margin-top: rem(40px);
   width: 100%;
 
@@ -353,7 +352,7 @@
   }
 
   li.toctree-l1.current > a {
-    color: $red_orange;
+    color: $amber;
     &:before {
       content: "\2022";
       display: inline-block;
@@ -361,7 +360,7 @@
       left: -15px;
       top: 1px;
       font-size: rem(22px);
-      color: $red_orange;
+      color: $amber;
 
       @include sphinx-medium-size {
         left: -20px;
@@ -486,11 +485,11 @@
   }
 
   li.active > a {
-    color: $red_orange;
+    color: $amber;
 
     span.pre,
     &:before {
-      color: $red_orange;
+      color: $amber;
     }
 
     &:after {

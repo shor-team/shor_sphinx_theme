@@ -31,20 +31,17 @@
 }
 
 .header-logo {
-  height: 23px;
-  width: 93px;
-  background-image: url("../images/logo.svg");
+  height: 45px;
+  width: 120px;
+  background-image: url("../images/logo-dark.svg");
   background-repeat: no-repeat;
-  background-size: 93px 23px;
+  background-size: 120px 45px;
   display: block;
   float: left;
   z-index: 10;
 
   @include full-nav-menu-desktop {
-    background-size: 108px 27px;
     position: absolute;
-    height: 27px;
-    width: 108px;
     top: 4px;
     float: none;
   }
@@ -89,7 +86,7 @@
       &:after {
         content: "•";
         bottom: -24px;
-        color: $orange;
+        color: $link_color;
         font-size: rem(22px);
         left: 0;
         position: absolute;
@@ -98,7 +95,7 @@
       }
 
       a {
-        color: $orange;
+        color: $link_color;
       }
     }
 
@@ -117,7 +114,7 @@
 
     @include full-nav-menu-desktop {
       &:hover {
-        color: $orange;
+        color: $link_color;
       }
     }
   }
@@ -164,7 +161,7 @@
   }
 
   ul li.active a {
-    color: $orange;
+    color: $link_color;
   }
 }
 
